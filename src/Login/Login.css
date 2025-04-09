@@ -1,0 +1,50 @@
+.login-page{
+    background: linear-gradient(#0b004e, #1d152f);
+    width: 30%;
+    padding: 30px 6.8%;
+    margin: 8% auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login-page p{
+    
+    cursor: default;
+    font-size: 15px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.login input{
+    width: 260px;
+    height: 50px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.login button{
+    width: 260px;
+    height: 50px;
+    padding: 5px 30%;
+    border: none;
+    border-radius: 5px;
+    background-color: #7927ff;
+    color: white;
+    cursor: pointer;
+}
+.login-name{
+    display: flex;
+    gap: 10px;
+}
+.login-name input{
+    width: 125px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 5px;
+}
+

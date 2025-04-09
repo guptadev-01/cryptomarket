@@ -1,0 +1,52 @@
+.navbar{
+    padding: 30px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #3c3c3c;
+    color: #ddd;
+}
+.navbar .logo{
+    width: max(12vw, 120px);
+    cursor: pointer;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.navbar li{
+    cursor: pointer;
+}
+.nav-right{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.nav-right select{
+    padding: 5px 8px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    background: transparent;
+}
+.nav-right select option{
+    color: white;
+    background: #09005c;
+    border: none;
+}
+.nav-right button{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #393939;
+    font-size: 15px;
+    border: none;
+    background: white;
+}
+.nav-right button img{
+    width: 13px;
+}
